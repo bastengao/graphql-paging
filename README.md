@@ -1,5 +1,7 @@
 # Graphql::Paging
 
+![](https://travis-ci.org/bastengao/graphql-paging.svg?branch=master)
+
 NOTE: If you need cursor-based pagination, [relay connection](https://graphql-ruby.org/relay/connections.html) is good for you.
 
 A page-based pagination extension for graphql gem, only support kaminari currently.
