@@ -1,7 +1,7 @@
 module GraphQL
   module Paging
     class PageInfo < GraphQL::Schema::Object
-      graphql_name "PageInfo"
+      graphql_name "PagingPageInfo"
 
       field :total_count,  Integer, method: :total_count,  null: false
       field :total_pages,  Integer, method: :total_pages,  null: false
