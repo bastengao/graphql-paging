@@ -1,6 +1,6 @@
-RSpec.describe Graphql::Paging do
+RSpec.describe GraphQL::Paging do
   it "has a version number" do
-    expect(Graphql::Paging::VERSION).not_to be nil
+    expect(GraphQL::Paging::VERSION).not_to be nil
   end
 
   context "users" do

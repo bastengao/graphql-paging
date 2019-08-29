@@ -5,7 +5,7 @@ require "graphql/paging/version"
 
 Gem::Specification.new do |spec|
   spec.name          = "graphql-paging"
-  spec.version       = Graphql::Paging::VERSION
+  spec.version       = GraphQL::Paging::VERSION
   spec.authors       = ["bastengao"]
   spec.email         = ["bastengao@gmail.com"]
 
