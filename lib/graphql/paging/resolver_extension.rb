@@ -23,8 +23,8 @@ module GraphQL
 
           type pagination, null: false
 
-          argument :page, Int, "return _n_ th page",           required: false
-          argument :per,  Int, "return _n_ elements per page", required: false
+          argument :page, Int, "return the _n_ th page.",       required: false
+          argument :per,  Int, "return _n_ elements per page.", required: false
         end
 
         private
@@ -39,8 +39,8 @@ module GraphQL
             klass = Class.new(_object_class) do
               graphql_name(pagination_name)
 
-              field :page_info, PageInfo, null: false
-              field :nodes,     [wrapped_type],  null: true
+              field :page_info, PageInfo,       "Information to aid in pagination.", null: false
+              field :nodes,     [wrapped_type], "A list of nodes.",                  null: true
 
               def page_info
                 paged_data
