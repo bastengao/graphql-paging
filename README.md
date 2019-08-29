@@ -27,6 +27,12 @@ Or install it yourself as:
 
 ## Usage
 
+Require the library
+
+```ruby
+require 'graphql/paging'
+```
+
 Include `GraphQL::Paging::ResolverExtension` in resolver and use `paginate` method.
 
 ```ruby
